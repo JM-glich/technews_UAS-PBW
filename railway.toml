@@ -1,5 +1,2 @@
 [build]
 builder = "NIXPACKS"
-
-[phases.setup]
-nixPkgs = ["php82", "php82Extensions.pdo", "php82Extensions.mbstring", "php82Extensions.zip", "php82Extensions.bcmath"]
